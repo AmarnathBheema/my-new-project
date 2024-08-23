@@ -1,7 +1,6 @@
 1. Create Launch Template - mylt
    AMI,SG,Type,UserData
 
-2. Create ASG - myasg
    VPC/Subnet
    MIN -1 , MAX-3, Desired-1
 

@@ -1,0 +1,16 @@
+1. Create Launch Template - mylt
+   AMI,SG,Type,UserData
+
+2. Create ASG - myasg
+   VPC/Subnet
+   MIN -1 , MAX-3, Desired-1
+
+3. CloudWatch Alarms
+   ScaleOut - CPU usage is > 75%
+   ScaleIn  - CPU usage is < 40%
+
+4. Create Autmatic Scaling policies
+   ScaleOutPolicy - Add 1 instance
+   ScaleInPolicy  - Remove 1 instance
+
+
